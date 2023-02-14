@@ -11,7 +11,7 @@ function App() {
   const [modalActive, setModalActive] = useState(false);
 
   useEffect(() => {
-    axios.get("https://run.mocky.io/v3/99170126-c552-4ff8-aa2d-f7a474afa121").then((res) =>setItems(res.data));
+    axios.get("https://63eb2da0fb6b6b7cf7d92144.mockapi.io/images").then((res) =>setItems(res.data));
   }, [])
 
 
