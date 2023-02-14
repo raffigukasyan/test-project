@@ -2,7 +2,7 @@
   "name": "test-project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://raffigukasyan.github.io/test-tasks/",
+  "homepage": "https://raffigukasyan.github.io/test-project/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
