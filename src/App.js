@@ -11,7 +11,7 @@ function App() {
   const [modalActive, setModalActive] = useState(false);
 
   useEffect(() => {
-    axios.get("https://63eb2da0fb6b6b7cf7d92144.mockapi.io/images").then((res) => setItems(res.data));
+    axios.get("https://run.mocky.io/v3/99170126-c552-4ff8-aa2d-f7a474afa121").then((res) =>setItems(res.data));
   }, [])
 
 
@@ -24,7 +24,7 @@ function App() {
     <div className='App'>
       <Header />
       <div className="menu">
-        
+        {console.log(items)}
         {items.map((item) => {
           return <div className="menu__block">
             <img src={item.imageUrl} onClick={() => OpenModal(item)}/>
